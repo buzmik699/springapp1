@@ -6,6 +6,6 @@ public class MusicPlayer {
         this.music = music;
     }
     public void getSong() {
-        System.out.println("Now plaing: " + music.getSong());
+        System.out.println("Now playing: " + music.getSong());
     }
 }
