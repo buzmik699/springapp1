@@ -37,5 +37,6 @@ public class MusicPlayer {
         for (Music item : musicList) {
             System.out.println(item.getSong());
         }
+        System.out.println(getName() + '\n' + getVolume());
     }
 }
