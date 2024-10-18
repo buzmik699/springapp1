@@ -4,11 +4,7 @@
   <groupId>ru.buzmakov.springcourse</groupId>
   <artifactId>springapp1</artifactId>
   <packaging>war</packaging>
-  <properties>
-    <maven.compiler.source>20</maven.compiler.source>
-    <maven.compiler.target>20</maven.compiler.target>
-  </properties>
-    <version>1.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>springapp1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -42,5 +38,15 @@
   </dependencies>
   <build>
     <finalName>springapp1</finalName>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>22</source>
+                  <target>22</target>
+              </configuration>
+          </plugin>
+      </plugins>
   </build>
 </project>
